@@ -8,7 +8,7 @@
 
 ## Linear Regression to Predict MPG
 
-![Head_Results_of_Dataframe](Head_MCdf.png)
+![Head_Results_of_Dataframe](Deliverable1_Images/Head_MCdf.png)
 ![LM_Results](LM_MCdf.png)
 ![Summary_Results](Summary_MCdf.png)
 
