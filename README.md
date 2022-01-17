@@ -9,8 +9,8 @@
 ## Linear Regression to Predict MPG
 
 ![Head_Results_of_Dataframe](Deliverable1_Images/Head_MCdf.png)
-![LM_Results](LM_MCdf.png)
-![Summary_Results](Summary_MCdf.png)
+![LM_Results](Deliverable1_Images/LM_MCdf.png)
+![Summary_Results](Deliverable1_Images/Summary_MCdf.png)
 
 -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
