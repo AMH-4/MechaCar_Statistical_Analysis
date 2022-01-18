@@ -1,4 +1,4 @@
-#DELIVERABLE 1
+#DELIVERABLE 1--------------
 
 #Import Library()
 library(dplyr)
@@ -18,7 +18,7 @@ lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clea
 summary(lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data= MCdf))
 
 
-#DELIVERABLE 2
+#DELIVERABLE 2--------------
 
 #Read in csv file as table
 SCtable <- read.table("Suspension_Coil.csv")
@@ -33,7 +33,26 @@ total_summary <- SuspensionTable %>% summarize(Mean=mean(PSI), Median=median(PSI
 lot_summary <- SuspensionTable %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI))
 
 
+#DELIVERABLE 3--------------
 
+#write an RScript using the t.test() function to determine if the PSI across all manufacturing lots 
+#is statistically different from the population mean of 1,500 pounds per square inch.
+
+#ALL LOTS
+t.test(SuspensionTable$PSI,mu=1500)
+
+#Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function 
+#and its subset() argument to determine if the PSI for each manufacturing lot 
+#is statistically different from the population mean of 1,500 pounds per square inch.
+
+#LOT 1
+t.test(subset(SuspensionTable,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+
+#LOT 2
+t.test(subset(SuspensionTable,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+
+#LOT 3
+t.test(subset(SuspensionTable,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
 
 
 
