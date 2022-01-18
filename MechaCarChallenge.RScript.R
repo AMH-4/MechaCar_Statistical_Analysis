@@ -30,9 +30,10 @@ head(SCtable)
 total_summary <- SuspensionTable %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
 #Create a lot_summary dataframe using group_by() and summarize() functions to group each manufacturing lot by the mean, media, variance, and standard deviation of SC's PSI column
-lot_summary <- SuspensionTable %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI))
+lot_summary3 <- SuspensionTable  %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), Num_Coil=n(),.groups='keep')
 
-
+                                                                               
+                                                                               
 #DELIVERABLE 3--------------
 
 #write an RScript using the t.test() function to determine if the PSI across all manufacturing lots 
