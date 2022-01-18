@@ -34,9 +34,11 @@
 
 ![Head_Lot_Summary_Results](Deliverable2_Images/Lot_Summary3.png)
 
+
 ## T-Tests on Suspension Coils:
 
-*then briefly summarize your interpretation and findings for the t-test results*
+*The below images showcase the results of the T-test on Suspension Coils for ALL Lots, Lot1, Lot2, and Lot3 respectivly. Lot1 and Lot2 have a p-values above significance level. This can translate that these means are statisitacly similar to the population mean. Lot3 has a p-value below siginifical level and statistically different from the population mean. The t-test allows us to determine how similar or different the suspension coils are in each lot compared to the population mean.
+
 
 ![AllLot_ttest_Results](Deliverable3_Images/AllLot_ttest.png)
 
