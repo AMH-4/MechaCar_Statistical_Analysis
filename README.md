@@ -37,8 +37,17 @@
 
 ![Head_Lot_Summary_Results](Deliverable2_Images/Lot_Summary.png)
 
+## T-Tests on Suspension Coils:
 
+*then briefly summarize your interpretation and findings for the t-test results*
 
+![AllLot_ttest_Results](Deliverable3_Images/AllLot_ttest.png)
+
+![Lot1_ttest_Results](Deliverable3_Images/Lot1_ttest.png)
+
+![Lot2_ttest_Results](Deliverable3_Images/Lot2_ttest.png)
+
+![Lot3_ttest_Results](Deliverable3_Images/Lot3_ttest.png)
 
 
 ## Results 
