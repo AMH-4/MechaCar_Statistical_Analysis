@@ -1,5 +1,5 @@
 # **MechaCar_Statistical_Analysis**
-*mini description*
+*Use R and statistics to analyze vehival data*
 
 
 ## Linear Regression to Predict MPG:
