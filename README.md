@@ -51,19 +51,4 @@
 
 ## Study Design: MechaCar vs Competition:
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-In your description, address the following questions:
-- What metric or metrics are you going to test?
-fuel efficiency
-- What is the null hypothesis or alternative hypothesis?
-null:
-alternative:
-- What statistical test would you use to test the hypothesis? And why?
-
-- What data is needed to run the statistical test?
-
-
-
-
-
+When it comes to car performance, there are many metrics in which consumers find of interest. Often the type of consumer desired can help determin the statistaical study. I think city/high fuel efficiency, cost, and maintenance cost are three factors that the average consutmer considers when purchasing a car. Data from MchaCar as well as data from close compeiotors could be gathered in order to perform a t-test, testing and comparing alternatives to the MechaCar. The null hypothesis would state that there is no differece between the studied metrics from MechaCar and the compeition. An alternative hypothesis would state that there is a difference between the studied metrics from MechaCar and the compeition. 
